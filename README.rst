@@ -14,7 +14,7 @@
 
     sudo pip3 install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
 
-    cd website_backend
+    cd flask_basic_template
     python3 manage.py init
 
 运行
@@ -22,10 +22,10 @@
 
 .. code:: bash
     
-    cd website_backend
+    cd flask_basic_template
     python3 manage.py runserver
     # Or run in shell
-    cd website_backend
+    cd flask_basic_template
     python3 manage.py shell
 
 
